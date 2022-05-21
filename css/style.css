@@ -1,0 +1,280 @@
+html, body{
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5% ;
+    background-color:#000;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(250deg 11% 22%);
+}
+
+.conteiner{
+    margin: auto;
+    width: 70%;
+    height: 100%;
+}
+
+.regiao-1{
+    width: 100%;
+    height: 360px;
+    background-color: #ffffff;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+    color: hsl(0, 0%, 75%);
+    font-weight: 900;
+}
+
+.login{
+    text-decoration: none;
+    color: hsl(0, 0%, 75%);
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.layout-button{
+    background-color: #2dd2d0;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    padding:3px 10px;
+}
+
+header{
+    display: flex;
+}
+
+.conteudo-header{
+margin-left: 30px;
+margin-top: 30px;
+}
+.alinhar-texto{
+    width: 60%;
+}
+
+.titulo-header{
+    font-size: 35px;
+    font-weight: 900;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.texto-header{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 75%);
+}
+
+.button-gr{
+    padding: 8px 8px;
+}
+
+.figura-1{
+    margin-top: 20px;
+}
+
+.figura-trabalhando{
+    width: 350px;
+}
+
+.cx-flutuante{
+    width: 70%;
+    height: 60px;
+    background-color: #000;
+    margin-left: 15%;
+    border-radius: 5px;
+    transform: translateY(-50%);
+    background-image: url(../images/bg-shorten-desktop.svg);
+    background-position: top;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: hsl(250deg 11% 22%);;
+}
+
+.titulo-flutuante{
+    background-color: #fff;
+    width: 60%;
+    border-radius: 5px;
+    line-height: 30px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: hsl(0, 0%, 62%);
+}
+
+.short-button{
+    background-color: #2dd2d0;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    padding:6px 15px;
+}
+
+.regiao-2{
+    width: 100%;
+    height: 450px;
+    background-color: #eff1f7;
+}
+
+.texto-centralizado{
+    text-align: center;
+    width:80%;
+    margin-left: 10%;
+    padding-top: 20px;
+}
+
+.titulo-1{
+    font-size: 28px;
+    margin-bottom: 2%;
+    /* font-weight: 900; */
+}
+
+.texto-1{
+    font-size: 16px;
+    margin-bottom: 5%;
+    color: hsl(0, 0%, 48%);
+}
+
+.fonte-branca{
+    color: #fff;
+}
+
+
+.boxs{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.box{
+    background-color: white;
+    width: 210px;
+    height: 150px;
+    margin: 10px;
+    padding-left: 20px;
+    color: hsl(0, 0%, 75%);
+}
+
+.icones-boxs{
+    background-color:hsl(257deg 27% 26%);
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+    position: relative;
+    bottom: 20px;
+    border-radius: 50%;
+}
+
+.icone-statistic{
+    width: 21px;
+    z-index: 2;
+    position: relative;
+    border-radius: 20px;
+    margin-left: 9px;
+    margin-top: 9px;
+}
+
+.text-reg2{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color:#000
+}
+
+.text2-reg2{
+    font-size: 14px;
+    color: hsl(0, 0%, 75%);
+}
+
+
+.b2{
+    margin-top: 40px;
+}
+
+.b3{
+    margin-top: 70px;
+}
+
+ .regiao-3{
+    width: 100%;
+    height: 120px;
+    background-image: url(../images/bg-boost-desktop.svg);
+    background-color: hsl(257, 27%, 26%)
+}
+
+.regiao-3-centralizado{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.titulo-reg3{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.get-button{
+    background-color: #2dd2d0;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 8px 20px;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #232027;
+    color: white;
+    height: 130px;
+}
+
+.box-footer{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo-footer{
+    margin-bottom: 10px;
+}
+
+.texto-footer{
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.icones-footer{
+    width: 20px;
+    padding: 5px;
+}
